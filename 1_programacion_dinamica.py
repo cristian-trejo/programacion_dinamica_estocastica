@@ -2,6 +2,7 @@
 # Para cambiar el limite de recursion en Python
 import sys
 
+# Se define la funcion fibonnacci mediante recursividad y la retorna
 def fibonacci_recursivo(n):
     if n == 0 or n == 1:
         return 1
